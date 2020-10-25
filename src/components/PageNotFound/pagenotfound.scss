@@ -1,0 +1,18 @@
+@import "../../styles/partials/fonts.scss";
+@import "../../styles/partials/variables.scss";
+
+.page-not-found {
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        font-weight: $app-font-weight-semibold;
+    }
+    &-icon {
+        font-size: 60px;
+        color: $app-info-color;
+    }
+}
